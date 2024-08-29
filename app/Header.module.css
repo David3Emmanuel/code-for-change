@@ -1,0 +1,26 @@
+.bars {
+    display: none;
+    z-index: 999;
+}
+
+.bars:hover+.sidebar {
+    visibility: visible;
+}
+
+.sidebar {
+    visibility: hidden;
+}
+
+.nav {
+    animation: fade-in 3s ease-out 1;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}

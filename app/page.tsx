@@ -14,7 +14,7 @@ export default function Page() {
         <main className="main">
             <div className="w-max m-20 ml-64" id="mainhero">
                 <h1 className={`cursor-pointer animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 ml-3 text-5xl text-white font-extrabold font-sans justify-center text-center space-x-8 ${styles.welcome}`} id="Welcome"> WELCOME TO <samp className="font-perm text-7xl">PROTOTYPE !</samp></h1>
-                <h3 className={`${styles.motto} text-center font-gloria font-bold text-3xl text-white`}>"Empower your future, one click at a time"</h3>
+                <h3 className={`${styles.motto} text-center font-gloria font-bold text-3xl text-white`}>&quot;Empower your future, one click at a time&quot;</h3>
                 <div className="pt-8">
                     <button className={`${styles.getStarted} bg-white hover:bg-black hover:text-white text-black font-bold text-3xl shadow-md px-5 py-3 ml-72 rounded-lg mt-4 justify-center border-black`} id="startedbtn">Get Started</button>
                 </div>

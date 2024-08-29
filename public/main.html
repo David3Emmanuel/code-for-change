@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTOTYPE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/ef289def54.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-700 to-black h-screen w-full bg-no-repeat">
+    <header>
+        <nav class="flex justify-between items-center p-4 h-18">
+            <h1 class="text-4xl font-extrabold font-perm cursor-pointer text-white">PROTOTYPE</h1>
+            <div>
+                <i class="fa-solid fa-magnifying-glass text-white text-2xl ml-5 relative left-7" id="searchicon"></i>
+                <input type="search" name="Searchbar" id="Searchbar" placeholder="Search..." class="w-80 h-10 p-2 rounded-lg ml-9 shadow-lg">
+
+            </div>
+            <ul class="flex gap-x-12 text-4xl font-bold mr-10 text-white">
+                <li><a href="#" class="text-xl hover:text-slate-400">Home</a></li>
+                <li><a href="#" class="text-xl hover:text-slate-400">About</a></li>
+                <li><a href="#" class="text-xl hover:text-slate-400">Contact</a></li>
+                <li><a href="login.html" class="text-xl hover:text-slate-400">Login</a></li> 
+                <div><i class="fa-solid fa-bars text-2xl justify-items-end hidden" id="bars"></i></div>
+            </ul>
+        </nav>
+        <div class="sidebar w-64 bg-transparent rounded-lg p-4 h-screen fixed end-16 top-0 shadow-lg z-50 invisible" id="sidebar">
+            <h2 class="text-2xl font-bold font-perm mb-4 text-center">PROTOTYPE</h2>
+            <ul class="text-center mt-10">
+              <li class="mb-6"><a href="#" class="text-2xl font-gloria font-bold hover:text-white">HOME</a></li>
+              <li class="mb-6"><a href="#" class="text-2xl font-gloria font-bold hover:text-white">ABOUT</a></li>
+              <li class="mb-6"><a href="#" class="text-2xl font-gloria font-bold hover:text-white">CONTACT</a></li>
+              <li class="mb-6"><a href="login.html" class="text-2xl font-gloria font-bold hover:text-white">LOGIN</a></li>
+            </ul>
+          </div>
+    </header>
+        <main class="main">
+           <div class="w-max m-20 ml-64" id="mainhero">
+           <h1 class="cursor-pointer animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 ml-3 text-5xl text-white font-extrabold font-sans justify-center text-center space-x-8" id="Welcome"> WELCOME TO <samp class="font-perm text-7xl">PROTOTYPE !</samp></h1>
+           <h3 class="text-center font-gloria font-bold text-3xl text-white">"Empower your future, one click at a time"</h3>
+           <div class="pt-8">
+            <button class="bg-white hover:bg-black hover:text-white text-black font-bold text-3xl shadow-md px-5 py-3 ml-72 rounded-lg mt-4 justify-center border-black" id="startedbtn">Get Started</button>
+           </div>
+        </div>    
+        </main>
+        <footer>
+            <div class="flex justify-center items-center h-30 text-white">
+                <p class="cursor-pointer">&copy; 2024 Prototype. All rights reserved.</p>
+            </div>
+            <div class="text-3xl mt-5 justify-center align-middle flex flex-row cursor-pointer">
+                <a href="#" class="hover:text-white"><i class="fa-brands fa-github px-10"></i></a>
+                <a href="#" class="hover:text-white"><i class="fa-brands fa-instagram px-10"></i></a>
+                <a href="#" class="hover:text-white"><i class="fa-brands fa-x-twitter px-10"></i></a>
+                <a href="#" class="hover:text-white"><i class="fa-brands fa-youtube px-10"></i></a>
+            </div>
+        </footer>
+</body>
+</html>

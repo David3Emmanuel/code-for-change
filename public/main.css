@@ -1,0 +1,70 @@
+nav{
+    animation: fade-in 3s ease-out  1 ;
+}
+@keyframes fade-inx{
+    from{
+        position: relative;
+        opacity: 0%;
+        color: transparent;
+    }
+    to{
+        width: 100%;
+        opacity: 100%;
+    }
+}
+footer{
+    animation: fade-in 1s ease-out 5s  both;
+}
+@keyframes fade-in-footer{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+@keyframes expand-fade-in{
+    from{
+        position: relative;
+        width: 0px;
+        opacity: 0%;
+        display: none;
+    }
+    to{
+        width: 100%;
+        opacity: 100%;
+    }
+}
+#Welcome{
+    animation: expand-fade-in 5s cubic-bezier(0,.62,.29,.84)   1 ;
+}
+
+
+div h3{
+    animation: fade-in 1s ease-out 5s  both;
+}
+@keyframes fade-in{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+div button{
+    animation: fade-in 1s ease-out 5.5s  both;
+}
+body{
+    background-attachment: fixed;
+}
+
+#bars{
+    display: none;
+    z-index: 999;
+}
+#bars:hover + #sidebar {
+    visibility: visible;
+}
+#sidebar{
+    visibility: hidden;
+}

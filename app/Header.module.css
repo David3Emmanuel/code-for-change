@@ -1,5 +1,5 @@
 .bars {
-    display: none;
+    display: none !important;
     z-index: 999;
 }
 

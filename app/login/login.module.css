@@ -1,11 +1,11 @@
 .mainpage {
     box-shadow: 2px 2px 60px white;
-    height: 25rem;
+    height: 30rem;
     width: 25rem;
     background-color: rgba(0, 0, 0, 0.562);
     position: relative;
     left: 27rem;
-    top: 4rem;
+    top: 1rem;
     border-radius: 10px;
 }
 
@@ -114,4 +114,11 @@
 .signup a:hover {
     color: #2691d9;
     text-decoration: underline;
+}
+
+.login_icons {
+    letter-spacing: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }

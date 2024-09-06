@@ -18,7 +18,7 @@ export default function Header() {
                 <li><Link href="#" className="text-xl hover:text-slate-400">Home</Link></li>
                 <li><Link href="#" className="text-xl hover:text-slate-400">About</Link></li>
                 <li><Link href="#" className="text-xl hover:text-slate-400">Contact</Link></li>
-                <li><Link href="login" className="text-xl hover:text-slate-400">Login</Link></li>
+                <li><Link href="signup" className="text-xl hover:text-slate-400">Sign Up</Link></li>
                 <div><i className={`fa-solid fa-bars text-2xl justify-items-end hidden ${styles.bars}`} id="bars" onClick={() => setShowSidebar(prev => !prev)}></i></div>
             </ul>
         </nav>

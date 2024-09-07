@@ -6,6 +6,20 @@ export const metadata: Metadata = {
 
 import styles from './main.module.css'
 import { Ubuntu } from "next/font/google"
+import Image from "next/image"
+
+import business from "@/public/business.jpeg"
+import Financeaccounting from "@/public/Financeaccounting.jpg"
+import musicmain from "@/public/musicmain.jpg"
+import schoolsubjects from "@/public/schoolsubjects.jpg"
+import designmainimg from "@/public/designmainimg.jpg"
+import developmentmain from "@/public/developmentmain.jpeg"
+import officeproductivity from "@/public/officeproductivity.webp"
+import marketing from "@/public/marketing.jpg"
+import gallery from "@/public/arrow.png" // TODO replace this image
+import arrow from "@/public/arrow.png"
+import licensing from "@/public/arrow.png" // TODO replace this image
+import unlocking from "@/public/arrow.png" // TODO replace this image
 
 const ubuntu = Ubuntu({
     subsets: ['latin'],
@@ -146,23 +160,23 @@ export default function Page() {
             <p className={styles.subhero}>Unlimited downloads of 18+ million creative assets. From just $16.50/month.</p>
         </div>
         <div className={styles.Herosampleimages}>
-            <div className={styles.businessmainimg}><a href="#"><img src="business.jpeg" alt="businessmainimg" /></a><h4>Business</h4><a href="#">110,000+</a></div>
-            <div className={styles.Financeaccounting}><a href="#"><img src="Financeaccounting.jpg" alt="Finance&amp;accounting" /></a><h4>Finance &amp; Accounting</h4><a href="#">310,000+</a></div>
-            <div className={styles.musicmainimg}><a href="PTimg"><img src="musicmain.jpg" alt="musicmainimg" /></a><h4>Music</h4><a href="#">130,000+</a></div>
-            <div className={styles.schoolsubjectsmain}><a href="#"><img src="schoolsubjects.jpg" alt="schoolsubjectmain" /></a><h4>Academics</h4><a href="#">10.6M+</a></div>
-            <div className={styles.designmainimg}><a href="#"><img src="designmainimg.jpg" alt="designmainimg" /></a><h4>Design</h4><a href="#">52,000+</a></div>
-            <div className={styles.developmentmainimg}><a href="#"><img src="developmentmain.jpeg" alt="developmentmainimg" /></a><h4>Development</h4><a href="#">7,500+</a></div>
-            <div className={styles.officeproductivitymainimg}><a href="#"><img src="officeproductivity.webp" alt="officeproductivitymainimg" /></a><h4>Office Productivity</h4><a href="#">260,000+</a></div>
-            <div className={styles.marketingmainimg}><a href="#" className="RfMmain"><img src="marketing.jpg" alt="marketingmainimg" /></a><h4>Royalty-free Music</h4><a href="#">160,000+</a></div>
+            <div className={styles.businessmainimg}><a href="#"><Image src={business} alt="businessmainimg" /></a><h4>Business</h4><a href="#">110,000+</a></div>
+            <div className={styles.Financeaccounting}><a href="#"><Image src={Financeaccounting} alt="Finance&amp;accounting" /></a><h4>Finance &amp; Accounting</h4><a href="#">310,000+</a></div>
+            <div className={styles.musicmainimg}><a href="PTimg"><Image src={musicmain} alt="musicmainimg" /></a><h4>Music</h4><a href="#">130,000+</a></div>
+            <div className={styles.schoolsubjectsmain}><a href="#"><Image src={schoolsubjects} alt="schoolsubjectmain" /></a><h4>Academics</h4><a href="#">10.6M+</a></div>
+            <div className={styles.designmainimg}><a href="#"><Image src={designmainimg} alt="designmainimg" /></a><h4>Design</h4><a href="#">52,000+</a></div>
+            <div className={styles.developmentmainimg}><a href="#"><Image src={developmentmain} alt="developmentmainimg" /></a><h4>Development</h4><a href="#">7,500+</a></div>
+            <div className={styles.officeproductivitymainimg}><a href="#"><Image src={officeproductivity} alt="officeproductivitymainimg" /></a><h4>Office Productivity</h4><a href="#">260,000+</a></div>
+            <div className={styles.marketingmainimg}><a href="#" className="RfMmain"><Image src={marketing} alt="marketingmainimg" /></a><h4>Royalty-free Music</h4><a href="#">160,000+</a></div>
 
             <div className={styles.Imgcategory_button}><a href="#"><button type="button">See all Category</button></a></div>
         </div>
         <section><div className={styles.Reason_Why_hero}>
             <p></p><h2>Why Creators Choose Elements</h2><p></p>
-            <div className={styles.Hero2_img1}><img src="gallery.png" alt="#" /><h4>18+ Million Assets</h4><h5>Be inspired &amp; get everything you need for any project.</h5></div>
-            <div className={styles.Hero2_img2}><img src="arrow.png" alt="#" /><h4>Unlimited Downloads</h4><h5>Freedom to play, experiment and create.</h5></div>
-            <div className={styles.Hero2_img3}><img src="licensing.png" alt="#" /><h4>Commecial License</h4><h5>All assets are covered by our simple lifetime commercial license.</h5></div>
-            <div className={styles.Hero2_img4}><img src="unlocking.png" alt="#" /><h4>Cancel any time</h4><h5>We believe in creative freedom - canceling is quick &amp; free.</h5></div>
+            <div className={styles.Hero2_img1}><Image src={gallery} alt="#" /><h4>18+ Million Assets</h4><h5>Be inspired &amp; get everything you need for any project.</h5></div>
+            <div className={styles.Hero2_img2}><Image src={arrow} alt="#" /><h4>Unlimited Downloads</h4><h5>Freedom to play, experiment and create.</h5></div>
+            <div className={styles.Hero2_img3}><Image src={licensing} alt="#" /><h4>Commecial License</h4><h5>All assets are covered by our simple lifetime commercial license.</h5></div>
+            <div className={styles.Hero2_img4}><Image src={unlocking} alt="#" /><h4>Cancel any time</h4><h5>We believe in creative freedom - canceling is quick &amp; free.</h5></div>
         </div></section>
         <section><div className={styles.planspricing}>
             <p></p><h2>Plans and Pricing</h2><p></p>

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import SocialLinks from '@/app/(auth)/SocialLinks'
-import styles from '@/app/(auth)/login.module.css'
+import SocialLinks from '@/app/welcome/(auth)/SocialLinks'
+import styles from '@/app/welcome/(auth)/login.module.css'
 import { signup } from '@/app/utils/user'
 import { UserRole } from '@/app/utils/types'
 import { redirect } from 'next/navigation'

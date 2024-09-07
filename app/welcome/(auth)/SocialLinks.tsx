@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '@/app/(auth)/login.module.css'
+import styles from '@/app/welcome/(auth)/login.module.css'
 
 export default function SocialLinks() {
     return (

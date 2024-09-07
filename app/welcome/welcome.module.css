@@ -1,0 +1,71 @@
+.page {
+    background-attachment: fixed;
+    background: linear-gradient(to top, #0000ff 0%, #000000 100%);
+    width: 100%;
+    background-size: contain;
+    overflow: hidden;
+}
+
+@keyframes fade-inx {
+    from {
+        position: relative;
+        opacity: 0%;
+        color: transparent;
+    }
+
+    to {
+        width: 100%;
+        opacity: 100%;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+.footer {
+    animation: fade-in 1s ease-out 5s both;
+}
+
+@keyframes fade-in-footer {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes expand-fade-in {
+    from {
+        position: relative;
+        width: 0px;
+        opacity: 0%;
+        display: none;
+    }
+
+    to {
+        width: 100%;
+        opacity: 100%;
+    }
+}
+
+.welcome {
+    animation: expand-fade-in 5s cubic-bezier(0, .62, .29, .84) 1;
+}
+
+
+.motto {
+    animation: fade-in 1s ease-out 5s both;
+}
+
+.getStarted {
+    animation: fade-in 1s ease-out 5.5s both;
+}

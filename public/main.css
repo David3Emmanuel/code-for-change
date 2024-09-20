@@ -3,18 +3,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: "Ubuntu", sans-serif;
     /* list-style-type: none; */
-    max-width: 1350px;
-    max-height: auto;
 }
-.logo{
-    width: 15px;
-    height: 15px;
-    cursor: pointer;
-    margin-top: 25px;
-    margin-left: 25px;
-}
+
 b{
     font-size: 25px;
     font-weight: 500;
@@ -32,7 +23,6 @@ b{
 }
 .Mainnav{
     box-shadow: 4px 6px 6px  rgba(231, 231, 231, 0.534);
-    height: +120px;
     background-color: rgb(255, 255, 255);
     padding-top: 10px;
     padding-left: 20px;
@@ -147,18 +137,17 @@ b{
     background-color: rgba(184, 6, 6, 0.749);
 }
 .Menubar{
-    float: right;
     position: relative;
     left: 5rem;
-    top: 8px;
-    size: 40px;
+    top: 6px;
     display: none;
+    color: black;
 }
 .Menubar:hover{
     color: red;
 }
 .Menubar i{
-   font-size: 25px;
+   font-size: 40px;
 }
 .SN li{
    list-style-type: none;
@@ -800,8 +789,13 @@ li a em{
     transition: .3s;
 }
 body{
-    background-color: rgba(223, 220, 220, 0.507);
-    height: 200rem;
+    background-color: rgba(223, 220, 220);
+}
+.subhero2{
+    display: none;
+}
+.sec2{
+    display: none
 }
 .Imgcategory-button a{
     text-decoration: none;
@@ -988,4 +982,233 @@ body{
     font-size: 18px;
     font-weight: 400;
     padding-top: 30px;
+}   
+
+@media screen and (max-width: 844px) and (min-width: 705px){
+   .hero h1 p b{
+     font-size: 2.5rem;
+   }
+}
+@media screen and (max-width: 704px) and (min-width: 680px){
+    .Searchbar{
+        visibility: hidden;
+    }
+    .Inputs1 .mg{
+        background-color: transparent;
+        color: black;
+    }
+    .Inputs1{
+        font-size: 1.5rem;
+    }
+    .hero h1 p b{
+     font-size: 2rem;
+     left: 6rem;
+     position: relative;
+   }
+   .subhero{
+    font-size: 1rem;
+    left: 5.5rem;
+   }
+   .Subnav{
+    display: none;
+   }
+   .learnN{
+    display: none;
+   }
+   #mg{
+    position: relative;
+    left: -24rem;
+   }
+   .Mainnav{
+    height: 5rem;
+   }
+   .Menubar{
+    display: inline-block;
+   }
+   .Menubar i{
+    position: relative;
+   }
+   .Inputs1 li{
+    position: relative;
+    right: 6rem;
+   }
+   .profileIcon{
+    display: none;
+   }
+}
+   @media screen and (max-width: 680px) and (min-width: 0px){
+    .Searchbar{
+        visibility: hidden;
+    }
+    .Inputs1 .mg{
+        background-color: transparent;
+        color: black;
+    }
+    .Inputs1{
+        font-size: 1.5rem;
+    }
+    .hero h1 p b{
+     font-size: 2.3rem;              
+   }
+   .subhero{
+    font-size: 1rem;
+   }
+   .Subnav{
+    display: none;
+   }
+   .learnN{
+    display: none;
+   }
+   #mg{
+    position: relative;
+    left: -24rem;
+   }
+   .Mainnav{
+    height: 5rem;
+   }
+   .Menubar{
+    display: inline-block;
+   }
+   .Menubar i{
+    position: relative;
+   }
+   .Inputs1 li{
+    position: relative;
+    right: 6rem;
+   }
+   .profileIcon{
+    display: none;
+   }
+   .hero h1{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: 3rem;
+    }
+   .Subnav{
+        display: none;
+       }
+   .Mainnav{
+        height: 5rem;
+       }
+   .subhero{
+        display: none;
+    }
+}
+@media screen and (max-width: 648px) and (min-width: 300px){
+    .Searchbar{
+        visibility: hidden;
+    }
+    .Inputs1 .mg{
+        background-color: transparent;
+        color: black;
+    }
+    .Inputs1{
+        font-size: 1.5rem;
+    }
+    .hero h1 p b{
+     font-size: 2rem;              
+   }
+   .subhero{
+    font-size: 1rem;
+   }
+   .Subnav{
+    display: none;
+   }
+   .learnN{
+    display: none;
+   }
+   #mg{
+    position: relative;
+    left: -24rem;
+   }
+   .Mainnav{
+    height: 5rem;
+   }
+   .Menubar{
+    display: inline-block;
+   }
+   .Menubar i{
+    position: relative;
+   }
+   .Inputs1 li{
+    position: relative;
+    right: 6rem;
+   }
+   .profileIcon{
+    display: none;
+   }
+   .hero h1{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: 5rem;
+    }
+   .Subnav{
+        display: none;
+       }
+   .Mainnav{
+        height: 5rem;
+       }
+   .subhero{
+        display: none;
+    }
+}
+@media screen and (max-width: 564px) and (min-width: 300px) {
+    .Searchbar{
+        visibility: hidden;
+    }
+    .Inputs1 .mg{
+        background-color: transparent;
+        color: black;
+    }
+    .Inputs1{
+        font-size: 1.5rem;
+    }
+    .hero h1 p b{
+     font-size: 30px;
+     display: block;       
+     width: 100%;       
+   }
+   .Subnav{
+    display: none;
+   }
+   .learnN{
+    display: none;
+   }
+   #mg{
+    position: relative;
+    left: -24rem;
+   }
+   .Mainnav{
+    height: 5rem;
+   }
+   .Menubar{
+    display: inline-block;
+   }
+   .Menubar i{
+    position: relative;
+   }
+   .Inputs1 li{
+    position: relative;
+    right: 6rem;
+   }
+   .profileIcon{
+    display: none;
+   }
+   .hero h1{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 5rem;
+
+    }
+   .Subnav{
+        display: none;
+       }
+   .subhero{
+        display: none;
+    }
 }
